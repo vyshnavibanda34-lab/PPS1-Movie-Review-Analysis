@@ -1,0 +1,111 @@
+
+MOVIE REVIEW ANALYSIS
+PPS 1 - Dataset Collection, Cleaning and Processing
+
+1. PROJECT OBJECTIVE
+--------------------
+The objective of this project is to collect, clean and process movie
+review data for analysis using Python and Pandas.
+
+The dataset contains movie review information along with reviewer
+details, ratings, review dates and helpfulness information.
+
+2. DATA SOURCE
+--------------
+The final dataset was obtained from a publicly available pre-collected
+research dataset originating from IMDb.
+
+Source Repository:
+https://github.com/SimpliSolve/RecSysData
+
+The project did not perform direct live scraping of IMDb.
+The publicly available pre-collected dataset was used for academic
+and educational purposes.
+
+3. TOOLS AND TECHNOLOGIES USED
+------------------------------
+Python
+Pandas
+Requests
+BeautifulSoup
+Jupyter Notebook
+
+4. DATA COLLECTION
+------------------
+The publicly available research dataset was accessed using Python.
+The required movie review records were collected and combined into
+a single Pandas DataFrame.
+
+The dataset contains fields such as:
+
+- Username
+- Rating
+- Helpful votes
+- Total votes
+- Review date
+- Review title
+- Review text
+- Movie name
+
+5. DATA CLEANING
+----------------
+The collected data was checked for data quality problems.
+
+The following cleaning operations were performed:
+
+- Missing values were checked.
+- Duplicate records were identified and removed.
+- Unwanted spaces and formatting were cleaned.
+- Rating values were converted into numeric format.
+- Data types were checked for consistency.
+- Invalid or incomplete records were examined.
+
+After cleaning, the final dataset contained:
+
+95760 review records
+8 columns
+0 missing values
+0 duplicate records
+
+6. DATA PREPROCESSING
+---------------------
+The cleaned dataset was prepared for further analysis.
+
+The rating, helpful votes and total votes columns were converted
+to appropriate numeric data types.
+
+Review dates were checked and processed as date-related information.
+
+Text fields such as review titles and review text were retained
+for further analysis.
+
+7. DATASET CREATION
+-------------------
+After completing the cleaning and preprocessing operations, the
+processed dataset was saved as a CSV file.
+
+The saved dataset was verified by loading it again and checking:
+
+- File existence
+- Number of records
+- Number of columns
+- Column names
+- Missing values
+- Duplicate records
+- Sample records
+
+8. FINAL DATASET
+----------------
+Final number of records: 95760
+Number of columns: 8
+Missing values: 0
+Duplicate records: 0
+
+9. CONCLUSION
+-------------
+The movie review dataset was successfully collected from a publicly
+available pre-collected research dataset, cleaned and processed
+using Python and Pandas.
+
+The final dataset is ready for further movie review analysis and
+visualization.

@@ -1,0 +1,53 @@
+PPS 1 - MOVIE REVIEW ANALYSIS
+DATASET SOURCE INFORMATION
+==============================================
+
+Project:
+Dataset Collection, Cleaning and Processing
+
+Dataset:
+Movie User Reviews
+
+Primary Public Dataset Source:
+https://github.com/SimpliSolve/RecSysData
+
+Repository:
+SimpliSolve - RecSysData
+
+Review Data Folder:
+https://github.com/SimpliSolve/RecSysData/tree/master/user_review_data_daily_search
+
+IMDb Top Movie Information:
+https://github.com/SimpliSolve/RecSysData/tree/master/top250
+
+IMDb Official Website:
+https://www.imdb.com/
+
+Data Origin:
+The review records in the public RecSysData repository
+originate from IMDb user review pages and were previously
+collected by the repository authors.
+
+Important Note:
+This project uses the already-available public dataset
+from the repository. It does not perform live scraping
+of IMDb during this project.
+
+Tools Used:
+- Python
+- Requests
+- BeautifulSoup
+- Pandas
+- Jupyter Notebook
+
+Processing Performed:
+1. Dataset collection
+2. Data inspection
+3. Missing-value checking
+4. Duplicate removal
+5. Text cleaning
+6. Data validation
+7. Final cleaned dataset creation
+
+Final Output:
+PPS1_Final_Cleaned_Movie_Reviews.csv
